@@ -1,4 +1,4 @@
-# Inotify-Exporter
+# Inotify Exporter For Prometheus
 It's increasingly common for programs to use Linux's inotify to watch files. Some apps leak the file descriptors of the inotify watches. When that happens, the machine will eventually run out of inotify watches.
 
 It would be useful to have a metric with the number of inotify watches to be able to monitor it.
