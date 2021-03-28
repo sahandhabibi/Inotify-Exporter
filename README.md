@@ -7,6 +7,9 @@ It would be useful to have a metric with the number of inotify watches to be abl
 ```
 inotify-exporter -Port 2110 (default port 2110 - /metrics )
 ```
+# Grafana Dashboard 
+
+![plot](./Dashboard-Inotify.png)
 
 Example metrics output:
 ```
